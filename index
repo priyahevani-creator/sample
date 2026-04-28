@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PureMilled - Millet Products</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f7f5f2;
+            color: #333;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            background: white;
+        }
+
+        header h1 {
+            color: #4a5d3a;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        .btn {
+            background: #4a5d3a;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+        }
+
+        .hero-text {
+            max-width: 50%;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            color: #3d4b2f;
+        }
+
+        .hero img {
+            width: 400px;
+            border-radius: 10px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .products {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .product-grid {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: 200px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background: #4a5d3a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>PureMilled</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Benefits</a>
+        <a href="#">Contact</a>
+    </nav>
+    <a href="#" class="btn">Shop Now</a>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2>Goodness Milled Naturally</h2>
+        <p>Premium millet products for a healthier lifestyle.</p>
+        <a href="#" class="btn">Explore Products</a>
+    </div>
+
+    <img src="https://images.unsplash.com/photo-1604908177522-040ebfe9c54f" alt="Millet Flour">
+</section>
+
+<section class="features">
+    <div>🌾 100% Natural</div>
+    <div>🥣 Finely Milled</div>
+    <div>❤️ Healthy & Nutritious</div>
+</section>
+
+<section class="products">
+    <h2>Our Products</h2>
+
+    <div class="product-grid">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c" alt="">
+            <h3>Ragi Flour</h3>
+            <p>Rich in calcium</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1615485290382-441e4d049cb5" alt="">
+            <h3>Kambu Flour</h3>
+            <p>High fiber grain</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1590080877777-5d4b99b5fba1" alt="">
+            <h3>Thinai Flour</h3>
+            <p>Traditional millet</p>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 PureMilled | Natural Millet Products</p>
+</footer>
+
+</body>
+</html>
